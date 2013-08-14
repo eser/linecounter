@@ -1,0 +1,31 @@
+{
+    "name": "larukedi/linecounter",
+    "description": "Counts lines of code in code files",
+    "type": "library",
+    "minimum-stability": "dev",
+    "keywords": [
+        "larukedi",
+        "linecounter"
+    ],
+    "homepage": "https://github.com/larukedi/linecounter/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eser Ozvataf",
+            "email": "eser@sent.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "suggest": {
+        "ext-tokenizer": "ext/tokenizer for lexical analysis"
+    },
+    "autoload": {
+        "psr-0": {
+            "Scabbia": "src"
+        }
+    },
+    "scripts": {
+    }
+}
